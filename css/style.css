@@ -3,6 +3,7 @@
 body{
   position: relative;
   font-family: "Lato"!important;
+  font-weight: 100;
 }
 
 .carousel-bg {
