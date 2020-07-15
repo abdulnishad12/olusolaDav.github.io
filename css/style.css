@@ -1,0 +1,363 @@
+
+
+body{
+  position: relative;
+  font-family: "Lato"!important;
+}
+
+.carousel-bg {
+ background-color: rgba(0, 0, 0, 0.411)!important;
+}
+
+.graphic {
+  font-weight: 200;
+  letter-spacing: 11.2px;
+  padding: 0%;
+}
+
+.head {
+    background-image:linear-gradient(to right,rgba(0,60,100,.3),rgba(0,60,100,.6)) ,url(../img/ijo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vh;
+    margin-top: 50px;
+}
+
+nav {
+    background-color: #0000001f!important;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.log-2 {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.header {
+    margin-top: 60px!important;
+    padding: 0;
+}
+
+
+/* --------------------mainNav ---------------------*/
+
+ @media screen and (min-width:0px) {
+  #mainNav {
+    position: absolute;
+    top: -100px;
+  }
+}
+
+ @media screen and (min-width:576px) {
+  #mainNav {
+   position: fixed;
+   top: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #mainNav {
+    position: fixed;
+    top: 0;
+  }
+}
+@media screen and (min-width:992px) {
+  #mainNav {
+    position: fixed;
+    top: 0;
+  }
+}
+@media screen and (min-width:1200px) {
+  #mainNav {
+    position: fixed;
+    top: 0;
+  }
+}  
+
+
+
+/* --------------------slideNav ---------------------*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.underline {
+  height: 3px;
+  width: 150px;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 3000!important;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+ .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* --------------------toggleNav ---------------------*/
+
+
+
+  .navButton{
+    position: absolute;
+    right: 10px!important;
+  }
+
+
+ @media screen and (min-width:0px) {
+  #openNav {
+    display: fixed;
+  }
+}
+
+ @media screen and (min-width:576px) {
+  #openNav {
+   display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #openNav {
+    display: none;
+  }
+}
+@media screen and (min-width:992px) {
+  #openNav {
+    display: none;
+  }
+}
+@media screen and (min-width:1200px) {
+  #openNav {
+    display: none;
+  }
+}  
+
+
+
+
+
+/* --------------------Contact Form---------------------*/
+
+.contact-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 30vh;
+}
+
+.footer-navs{
+  list-style: none;
+  display: inline-flex;
+}
+
+.social-links{
+  list-style: none;
+  display: inline-flex;
+}
+#myNavbar{
+background-color: white!important;
+
+}
+
+#myNavbar {
+  background-color: white;
+  position: sticky;
+  top: 50px;
+  z-index: 500;
+  border-bottom: solid 1px black;
+}
+
+#myNavbar {
+ list-style: none; 
+ margin: auto;
+ 
+}
+
+#myNavbar ul li  a:link {
+ color: black;
+ 
+}
+
+
+
+#myNavbar ul li a:visited{
+  color:black;
+}
+
+  .loader {
+    position: fixed;
+    z-index: 9000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 150px;
+    height: 150px;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 1;
+        visibility: hidden;
+    }
+}
+
+
+.footer {
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 500;
+}
+
+.footer-blog {
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 500;
+}
+
+ .blog-photo{
+  width:100%;
+  
+  overflow: hidden;
+  background-color: black;
+}
+
+.blog-photo img {
+  opacity: 0.6;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s; opacity: 0.5s;
+}
+
+.blog-photo img:hover{
+  opacity:1;
+  transform: scale(1.03);
+} 
+
+
+#progress{
+  background:linear-gradient(to left,rgba(0,60,100,.3),rgba(0,60,100,.6)) ,url(../img/my\ pi.png)center/cover no-repeat;
+}
+
+.About {
+  margin-top: 100px!important;
+}
+
+.contactI .whatsapp {
+  margin-left: 0;
+  color: green;
+  font-size: 30px;
+}
+
+.contactI .google {
+  margin-left: 0;
+  color: red;
+  font-size: 30px;
+}
+
+.contactI .facebook {
+  margin-left: 0;
+  color: rgb(20, 115, 223);
+  font-size: 30px;
+}
+
+.contactR{
+ margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.topNav{
+  z-index: 2000;
+}
+
+
+
+.contact-div {
+  margin-top: 100px!important;
+}
+
+.blog-ref{
+  color: rgb(34, 33, 33);
+  font-size: 12px;
+}
+
+.blog-link h3  {
+  color: black
+}
+
+.blog-link a {
+  text-decoration: none; 
+}
+
+.blog-link a:hover {
+   border-bottom: red solid 1px;
+}
+
+.dark{
+  background-color: rgba(0, 0, 0, 0.301);
+  padding: 0;
+}
+
+.height{
+  height: 39vh;
+}
+
+footer p {
+  font-size: small;
+}
