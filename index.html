@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="keywords" content="HTML, CSS, XML, JavaScript, Illustration, Cartoon, Portrait cartoon, Logo design, Photo manipulation
     Poster design, Adobe After Effect, Adobe Premiere Pro, Photoshop, Adobe Illustrator, React Js, Figma, Node.Js, Web design, web development, graphic design
     graphic designer, web developer, web designer, portfolio, team work, collaboration, proficiency, creative, problem-solving skill, Creative skill, freelancer, Fine and Applied Art
@@ -16,9 +17,7 @@
 </head>
 <body>
 
-    <div class="loader">
-        <img src="./img/mylogo.gif" alt="loading....">
-    </div>
+  
 
 <!---------------------------------Beginning of Header-------------------------->
 <header class="">
@@ -37,7 +36,7 @@
    
   <!---------------------------------Beginning of Header-------------------------->
   <nav id="mainNav" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-      <a id="logo" class="navbar-brand" href="index.html"><img src="./img/logo.png" class="d-block w-10 logo"></a>
+      <a  class="navbar-brand" href="index.html"><img src="./img/logo.png" class="d-block w-10 logo"></a>
       
       
      
@@ -60,16 +59,49 @@
 
 <!---------------------------------------End of Navbar-------------------->
 
-
-<!------------Head Title--->
-<div class="container-flud head">
-    <div class="row ">
-        <div class="col header mx-auto">
-            <h2 class="text-uppercase text-white text-center pb-n2 mb-n2">Olusola Akinbode</h2>
-            <h5 class="text-uppercase text-white graphic text-center pt-n3 mt-n2">Graphic Design</h5>
+<main>
+    <section class="title-section container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="title-header">
+                    <span class="text-wrapper">
+                      <span class="line line1"></span>
+                      <span class="letters letters-left">Make &nbsp;</span>
+                      <span class="letters letters-right">it Real!</span>
+                      <span class="line line2"></span>
+                    </span>
+                  </h1>
+            </div>
         </div>
-    </div>
-</div>
+      
+    </section>
+    <section class="hero-section">
+      <img src="img/graphix2.jpg"></img>
+      <svg height="100%" width="100%">
+        <defs>
+          <mask id="mask" x="0" y="0" width="100%" height="100%" >
+            <rect x="0" y="0" width="100%" height="100%" />
+            <text x="50%" y="55%" text-anchor="middle">OlusolaGraphix</text>
+          </mask>
+        </defs>
+        <rect fill="black" x="0" y="0" width="100%" height="100%" />
+      </svg>
+      <h2 class="hero-title text-white">Welcome</h2>
+    </section>
+    <section></section>
+    <section></section>
+
+<!-- ---------------------------Header Section-------- -->
+
+
+<!-- ------------End of Header Section--------------------- -->
+
+
+
+
+<div class="body-section container-fluid">
+
+
 
 <!------------End Head title-->
 
@@ -162,7 +194,7 @@
     <div class="container">
     
     <div class="row mt-3">
-        <div class="col text-center mt-2">
+        <div class="col text-white text-center mt-2">
     
          <h5 class="text-dark text-capitalize mt-2">Monkey & Shark </h5>
          <h6 class="text-dark mt-n1"> A tale of Monkey and his friend "Shark"</h6>
@@ -233,7 +265,7 @@
     
     <!--End of Illustration Blog-->
 
-    <hr>
+    <hr class="text-white">
     
     <!--Illustration Blog 2-->
     <!--title-->
@@ -241,7 +273,7 @@
         <div class="container mt-3">
         
         <div class="row mt-3">
-            <div class="col text-center mt-2">
+            <div class="col text-white text-center mt-2">
         
              <h5 class="text-dark text-capitalize mt-2">Eruwa Ojoko </h5>
              <h6 class="text-dark  mt-n1">The history of Eruwa</h6>
@@ -307,7 +339,7 @@
  </Section>
         <!--End of Illustration Blog-->
 
-<hr class="my-5">
+<hr class="my-5 text-white">
 
 
 <!------------------------------Beginneing of Cartoons-------------------------------->
@@ -411,7 +443,7 @@
 </Section>
         <!--End of Collapsed div-->
 
-<hr class="my-5">
+<hr class="my-5 text-white">
 
 
 
@@ -534,7 +566,7 @@
 </Section>
         <!--End of Collapsed div-->
 
-<hr class="my-5">
+<hr class="my-5 text-white">
 
 
 
@@ -634,7 +666,7 @@
 </Section>
         <!--End of Collapsed div-->
 
-<hr class="my-5">
+<hr class="my-5 text-white">
 
 
 
@@ -749,7 +781,7 @@
 </Section>
         <!--End of Collapsed div-->
 
-<hr class="my-5">
+<hr class="my-5 text-white">
 
 
 
@@ -794,7 +826,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="./img/poster8.jpg" alt="Balance Diet" class="d-block w-100">\
+                <img src="./img/poster8.jpg" alt="Balance Diet" class="d-block w-100">
                 <div class="carousel-caption dark">
                     <h6> Poster on Children Mental Health </h6>  
                </div>
@@ -899,7 +931,7 @@
 
     <!--footer-->
 
-<footer class="bg-dark footer height">
+<footer class="container-fluid bg-dark footer height">
     <div class="container-fluid">
     <div class="row clearfix justify-content-between">
         <div class="col  d-inline-flex ">
@@ -915,7 +947,7 @@
                  <li> <a href="https://wa.me/2348032158383" target="_blank" class="btn-lg text-secondary mb-3">  <i class="ion-social-whatsapp"></i></a></li>
                 <li> <a href=" http://m.me/Akinbode_Olusola_David" target="_blank"  class="btn-lg text-secondary"> <i class="ion-social-facebook"></i> </a></li>
                  <li><a href=" https://www.instagram.com/olusola_digitalArt/" target="_blank"  class="btn-lg text-secondary">  <i class="ion-social-instagram"></i></a></li>
-                  <li><a href="https://twitter.com/holusholer11" target="_blank"  class="btn-lg text-secondary">  <i class="ion-social-twitter"></i></a></li>
+                 <li><a href="https://github.com/olusolaDav" target="_blank"  class="btn-lg text-secondary">  <i class="ion-social-github"></i></a></li>
                   <li><a href="https://www.linkedin.com/in/oakinbode" target="_blank"  class="btn-lg text-secondary"> <i class="ion-social-linkedin"></i> </a></li>
                   <li><a href="mailto:akinbodeoluosola9611@gmail.com" target="_blank"  class="btn-lg text-secondary"> <i class="ion-android-mail"></i></a></li>
              </ul>
@@ -932,10 +964,11 @@
   </div>
   </footer>
  
-    
+</div>  
   
     
   <link rel="stylesheet" href="./css/ionicons-2.0.1/css/ionicons.min.css">
+    <script src="./js/anime.min.js"></script>
     <script src="./js/index.js"></script>  
   <script src="./js/jquery-3.4.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>        
