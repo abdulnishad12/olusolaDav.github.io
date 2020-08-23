@@ -128,9 +128,9 @@ anime
       opacity: [0, 1],
       translateX: ["-0.65em", "-0.15em"],
       easing: "easeOutExpo",
-      duration: 600
+      duration: 800
     },
-    "-=600"
+    "-=800"
   );
 
 
