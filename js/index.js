@@ -219,7 +219,7 @@ anime
             function togglePost() {
                 if (tog6 == true) {
                     document.getElementById("button-6").innerHTML="VIEW LESS";
-                    tog5=false;
+                    tog6=false;
                 }
             
                else if (tog6 == false) {
