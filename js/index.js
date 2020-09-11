@@ -229,6 +229,19 @@ anime
             
             } 
 
+             let tog7 =true;
+            function toggleWeb() {
+                if (tog7 == true) {
+                    document.getElementById("button-8").innerHTML="VIEW LESS";
+                    tog7=false;
+                }
+            
+               else if (tog7 == false) {
+                    document.getElementById("button-8").innerHTML="VIEW ALL";
+                    tog7=true;
+                }
+            
+            } 
 
             function openNav() {
                 document.getElementById("mySidenav").style.width = "100%";
@@ -253,6 +266,7 @@ anime
     document.getElementById('button-4').style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
     document.getElementById('button-5').style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
     document.getElementById('button-6').style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    document.getElementById('button-8').style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
   }, 700)
    
 
